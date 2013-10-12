@@ -36,4 +36,4 @@ def main():
     return transform(writer=Writer(), part='html_body')
 
 if __name__ == '__main__':
-    print(main())
+    print(main().encode('utf-8'))
